@@ -65,20 +65,22 @@
         margin-top: 15px;
     }
     
-    .banner img {
+    .banner-img {
         width: 80vw;
-        justify-content: center;
-        align-items: center;
-        padding-left: 150px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 10%;
+        margin-right: auto;
     }
     /* quick list styles */
     
     .quick-list {
         display: flex;
-        gap: 50px;
-        padding: 50px 200px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        gap: 80px;
+        padding: 0 150px;
     }
     
     .team-img {
@@ -88,11 +90,11 @@
     }
     
     .team-img img {
-        height: 250px;
+        width: 230px;
     }
     
     .quick-list-detail {
-        padding-top: 150px;
+        padding-top: 20px;
     }
     
     .text-grey {
@@ -107,7 +109,8 @@
     .features {
         display: flex;
         gap: 100px;
-        padding: 0 200px;
+        margin-top: 85px;
+        padding: 0 100px;
     }
     
     #feature-title {
@@ -131,7 +134,7 @@
     }
     
     .btn-orange h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .btn-orange {
@@ -139,22 +142,23 @@
         color: white;
         border: none;
         border-radius: 5px;
-        padding: 30px 35px;
+        padding: 25px 30px;
         justify-content: center;
         align-items: center;
         font-size: 16px;
-        margin-left: 550px;
+        margin-left: 400px;
         margin-right: 300px;
     }
     
     .btn {
-        margin-top: -100px;
+        margin-top: -130px;
     }
     /* facts list styles */
     
     .facts-detail {
         text-align: start;
         margin-left: 150px;
+        margin-top: 85px;
     }
     
     .facts-list {
@@ -213,9 +217,14 @@
         margin-top: 50px;
     }
     
-    input {
+    input,
+    textarea {
         padding: 10px 30px;
         margin-bottom: 2px;
+    }
+    
+    textarea {
+        width: 164px;
     }
     
     .btn-yellow {
@@ -249,11 +258,8 @@
             gap: 10px;
         }
         .banner-title {
-            font-size: 30px;
+            font-size: 25px;
             margin-top: 20px;
-        }
-        .banner-img {
-            padding: 20px;
         }
         .quick-list {
             flex-direction: column;
@@ -261,10 +267,6 @@
         }
         .team-img {
             grid-template-columns: repeat(1, 1fr);
-        }
-        .team-img img {
-            height: auto;
-            width: 100%;
         }
         .quick-list-detail {
             padding-top: 10px;
@@ -308,7 +310,7 @@
             margin: 0;
             padding: 30px;
         }
-        .header {
-            display: none;
+        textarea {
+            width: 170px;
         }
     }
